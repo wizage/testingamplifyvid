@@ -1,0 +1,38 @@
+{
+    "shared": {
+        "resourceName": "myvodstreams"
+    },
+    "template": {
+        "name": "Amplify_Video_HLS.json"
+    },
+    "contentDeliveryNetwork": {
+        "enableDistribution": false
+    },
+    "permissions": {
+        "permissionSchema": [
+            "admin",
+            "any"
+        ]
+    },
+    "cms": {
+        "overrideSchema": true,
+        "editAPI": false
+    },
+    "parameters": {
+        "authRoleName": {
+            "Ref": "AuthRoleName"
+        },
+        "GraphQLAPIId": {
+            "Fn::GetAtt": [
+                "apinewtags",
+                "Outputs.GraphQLAPIIdOutput"
+            ]
+        },
+        "GraphQLEndpoint": {
+            "Fn::GetAtt": [
+                "apinewtags",
+                "Outputs.GraphQLAPIEndpointOutput"
+            ]
+        }
+    }
+}

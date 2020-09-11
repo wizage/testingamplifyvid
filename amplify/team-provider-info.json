@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newtags-dev-152039-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533122240946:role/amplify-newtags-dev-152039-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533122240946:role/amplify-newtags-dev-152039-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-newtags-dev-152039-deployment",
+      "UnauthRoleName": "amplify-newtags-dev-152039-unauthRole",
+      "StackName": "amplify-newtags-dev-152039",
+      "StackId": "arn:aws:cloudformation:us-west-2:533122240946:stack/amplify-newtags-dev-152039/5f5a88c0-eca1-11ea-b440-0a2139e0d637",
+      "AmplifyAppId": "d2pryvmbw653mb"
+    },
+    "categories": {
+      "auth": {
+        "newtagse7ec95f7": {}
+      },
+      "video": {
+        "myvodstreams": {
+          "s3UUID": "adnpsbmt"
+        }
+      }
+    }
+  }
+}
